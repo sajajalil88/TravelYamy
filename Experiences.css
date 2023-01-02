@@ -1,0 +1,49 @@
+.exp-container{
+  
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+h1{
+    padding-left: 15px;
+    font-size: 40px;
+}
+.exps{
+   align-items: center;
+   margin: 20px;
+   width: 100%;
+   background-color:lightblue;
+   border-radius: 6px;
+}
+#grenada{
+    width:100%;
+}
+#mald{
+    width:100%;
+}
+#bora{
+    width:100%;
+}
+#key{
+    width:100%;
+}
+p{
+    font-size: 15px;
+}
+@media screen and (max-width: 940px) {
+
+p{
+    font-size: 14px;
+    text-align: center;
+}
+
+.exp-container{
+  
+   
+    grid-template-columns: 1fr;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+}
